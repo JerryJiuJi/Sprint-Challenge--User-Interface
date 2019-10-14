@@ -69,7 +69,41 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    display: flex;
 }
+
+/* My code starts here*/
+
+.menubar {
+    display: flex;
+    /* border: solid; */
+    margin: 3%;
+    height: 6%;
+}
+
+    .navigation {
+        display: flex;
+        /* border: solid; */
+        justify-content: space-between;
+        width: 70%;
+        margin-left: 3%;
+        /* align-content: bottom;
+        justify-content: bottom; */
+        margin-top: 4%;
+    }
+
+    .navigation a {
+        text-decoration: none;
+        color: grey;
+    }
+
+.top-img {
+    /* border: solid; */
+    margin: 2%;
+    width: 100%;
+}
+
+
 
 .top-content {
     display: flex;
